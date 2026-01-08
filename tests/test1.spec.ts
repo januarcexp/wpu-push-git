@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('edit file baru dengan branch ada', async ({ page }) => {
+test('update file dengan akun januar', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
